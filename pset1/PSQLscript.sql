@@ -1,4 +1,20 @@
+DROP USER IF EXISTS nicolasperim;
+CREATE USER nicolasperim with
+NOSUPERUSER
+CREATEDB
+CREATEROLE
+ENCRYPTED PASSWORD '123456';
 
+DROP DATABASE  IF EXISTS uvv;
+CREATE database uvv  WITH
+owner =  'nicolasperim'
+template = template0
+encoding = 'UTF-8'
+lc_collate = 'pt_BR.UTF-8'
+lc_ctype = 'pt_BR.UTF-8'
+;
+
+\c "dbname=uvv user=nicolasperim password=123456"
 
 create schema elmasri authorization nicolasperim;
 
