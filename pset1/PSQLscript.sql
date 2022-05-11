@@ -202,7 +202,7 @@ VALUES('98765432168', 'Jennifer', 'S', 'Souza', '1941-06-20', 'Av. Arthur de Lim
 
 INSERT INTO funcionario
 (cpf, primeiro_nome, nome_meio, ultimo_nome, data_nascimento, endereco, sexo, cpf_supervisor, salario, numero_departamento)
-VALUES('33344555587', 'Fernando', 'T', 'Wong', '955-12-08', 'Rua da Lapa,34, São Paulo,SP', 'M', '88866555576', 40.000, 5);
+VALUES('33344555587', 'Fernando', 'T', 'Wong', '1955-12-08', 'Rua da Lapa,34, São Paulo,SP', 'M', '88866555576', 40.000, 5);
 
 INSERT INTO funcionario
 (cpf, primeiro_nome, nome_meio, ultimo_nome, data_nascimento, endereco, sexo, cpf_supervisor, salario, numero_departamento)
