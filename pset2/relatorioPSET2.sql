@@ -65,7 +65,7 @@ AS "Idade do Dependente"
 , CASE d.sexo
     WHEN 'M' THEN 'Masculino'
     WHEN 'F' THEN 'Feminino'
-  END AS "Sexo do dependente"
+  END AS "Sexo do Dependente"
 FROM funcionario f
 INNER JOIN dependente d 
 ON (d.cpf_funcionario = f.cpf)
