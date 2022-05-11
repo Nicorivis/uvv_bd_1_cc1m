@@ -1,2 +1,3 @@
-## Esta Pasta é utilizando o Pset1 como base, porém, dessa vez criando relatórios utilizando algebra relacional.
+## Esta pasta utiliza o Pset1 como base, criando relatórios nos dados presentes, além de utilizar álgebra relacional.
 
+**Colaborador do Projeto - [Matheus Ferreira Melo](https://github.com/matheusfmelo)**
